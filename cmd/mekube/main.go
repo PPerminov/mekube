@@ -1,13 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"github.com/PPerminov/mekube/pkg/mekube"
-)
+import "github.com/davecgh/go-spew/spew"
+import "github.com/PPerminov/mekube/pkg/mekube"
 
 func main() {
-	err := mekube.MErgeKUBErnetesconfigfiles()
-	if err != nil {
-		fmt.Println(err)
-	}
+	spew.Dump(mekube.MErgeKUBErnetesconfigfiles())
 }

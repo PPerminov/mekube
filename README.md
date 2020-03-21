@@ -1,3 +1,5 @@
 # Usage:
-`mekube -files ./kubeconfig1,./kubeconfig2 -output ./kubeconfig3 -todefault`
+`mekube -file ./kubeconfig1`
+
+It will inject kubeconfig1 into default config
 
